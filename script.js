@@ -47,7 +47,7 @@ function loadTasks() {
       var li = document.createElement("li");
       li.textContent = task.text;
 
-      // Add delete button
+      // Delete button
       var deleteBtn = document.createElement("button");
       deleteBtn.textContent = "Delete";
       deleteBtn.onclick = function () {
